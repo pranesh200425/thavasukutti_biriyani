@@ -11,6 +11,15 @@
   animation: rotate 10s linear infinite;
 }
 
+#glass_bg {
+/* From https://css.glass */
+background: rgba(255, 205, 0, 0.98);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(12.4px);
+-webkit-backdrop-filter: blur(12.4px);
+border: 1px solid rgba(255, 205, 0, 0.9);
+}
+
 
 
 @keyframes rotate {
