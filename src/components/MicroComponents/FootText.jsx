@@ -1,12 +1,11 @@
-import React from "react";
-
 const FootText = ({
   icon,
   text ,
+  style
 }) => {
   return (
-    <div className="flex items-start pr-2 text-left">
-      <p>{icon}</p>
+    <div className={style} >
+      <p className="pr-2" >{icon}</p>
       <p>{text}</p>
     </div>
   );
