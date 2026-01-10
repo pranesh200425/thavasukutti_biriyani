@@ -6,7 +6,7 @@ import Home from './Pages/Home'
 const App = () => {
   return (
     <>
-    <div className='flex w-full' >
+    <div className='flex flex-col w-full' >
       <Home />
     </div>
     

@@ -1,12 +1,16 @@
-import React from 'react'
-import FoodCard from './MicroComponents/FoodCard'
+import React from "react";
+import FoodCard from "./MicroComponents/FoodCard";
 
 const Menu = () => {
   return (
-    <div className='grid-cols-3 w-full' >
+    <div className="flex flex-col w-full " >
+      <h1 className="flex text-5xl font-bold pl-4" >Menu</h1>
+      <div className="flex w-full pt-4 ">
         <FoodCard />
+        <FoodCard />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Menu
+export default Menu;
