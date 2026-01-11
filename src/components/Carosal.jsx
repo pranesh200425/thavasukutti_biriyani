@@ -9,8 +9,8 @@ import "../App.css";
 
 const Carosal = () => {
   return (
-    <div className="flex items-center justify-center mt-3 pt-1 pb-1">
-      <div className="flex min-h-80 min-w-[20rem] items-center justify-center shadow-inner bg-amber-300 rounded-full relative overflow-hidden">
+    <div className="flex items-center justify-center mt-3 pt-1 pb-1" id='header' >
+      <div className="flex min-h-80 min-w-[20rem] items-center justify-center shadow-inner bg-amber-300 rounded-full relative overflow-hidden" id="car" >
         <div
           className=" h-full w-full flex flex-col absolute top-[95%] items-center justify-center " /* id='carousal' */
         >
