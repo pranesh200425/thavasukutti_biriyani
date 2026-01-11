@@ -5,7 +5,7 @@ import {
   faEnvelope,
   faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
-import FootText from "./MicroComponents/footText";
+import FootText from "./MicroComponents/FootText.jsx";
 
 const Footer = () => {
   return (
