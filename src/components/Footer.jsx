@@ -10,7 +10,7 @@ import FootText from "./MicroComponents/FootText.jsx";
 const Footer = () => {
   return (
     <div className="flex flex-col mt-4 bg-[#0e1111] justify-center p-4 ">
-      <div className="flex flex-col text-2xl font-bold text-[#FDFDFD]">
+      <div className="flex flex-col  font-bold text-[#FDFDFD]">
         <FootText
           icon={<FontAwesomeIcon icon={faLocationDot} />}
           text="No : 43/7, Shanthiniketan Colony, Near HP Petrol Bunk,
