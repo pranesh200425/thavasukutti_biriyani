@@ -27,10 +27,15 @@ body {
   background-repeat: repeat;
 } */
 
-#headerText {
+#headerText,
+#menu, #itemName {
   font-family: 'Cormorant Garamond';
 }
 
-#menu {
-  font-family: 'Cormorant Garamond';
+#itemName {
+  font-weight: 600;
+}
+
+#description {
+  font-family: 'Roboto';
 }
