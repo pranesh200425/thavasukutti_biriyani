@@ -9,9 +9,8 @@ const FoodCard = ({ foodimg = bir1, foodname = "Chicken biriyani", price = "Rs.1
         <img src={foodimg}  alt="foodImage" />
       </div>
       <div className="flex flex-col w-full p-4 absolute bottom-0" id="glass_bg" >
-        <h1 className='text-3xl font-semibold' >{foodname}</h1>
-        <p>{description}</p>
-        <h3 className="text-2xl font-black text-white" >{price}</h3>
+        <h1 className='text-2xl font-semibold' >{foodname}</h1>
+        <h3 className="text-xl font-black text-white" >{price}</h3>
       </div>
     </div>
   );
