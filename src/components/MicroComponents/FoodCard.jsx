@@ -12,7 +12,7 @@ const FoodCard = ({ foodimg = bir1, foodname = "Chicken biriyani", price = "Rs.1
       <div className="flex flex-col w-full p-4 absolute bottom-0" id="glass_bg" >
         <h1 className='text-2xl font-bold' id='itemName' >{foodname}</h1>
         <p id="description" >Tasty flavorful seeraga samba chicken biriyani</p>
-        <h3 className="text-xl font-black text-[#5c4b00]" >{price}</h3>
+        <h3 className="text-xl font-black text-[#856404]" >{price}</h3>
       </div>
     </div>
   );
